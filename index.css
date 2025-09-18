@@ -1,0 +1,61 @@
+
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.header {
+    background-color: #006400;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header .logo {
+    width: 60px;
+    vertical-align: middle;
+}
+
+.header h1 {
+    margin: 5px 0;
+    font-size: 1.8em;
+}
+
+.header p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    gap: 20px;
+}
+
+.main-content {
+    flex: 3;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.sidebar {
+    flex: 1;
+    min-width: 250px;
+}
+
+.ss{
+
+transform: translateX(-200px);
+}
+
+
